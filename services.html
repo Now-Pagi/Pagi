@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>事業内容｜株式会社パギ</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="logo">PAGI<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">トップ</a></li>
+      <li><a href="message.html">ご挨拶</a></li>
+      <li><a href="services.html" class="active">事業内容</a></li>
+      <li><a href="track.html">実績</a></li>
+      <li><a href="company.html">会社概要</a></li>
+      <li><a href="services-en.html" class="lang-switch">EN</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="section-inner">
+    <p class="section-label">Services</p>
+    <h2 class="section-title" style="margin-bottom: 0;">事業内容</h2>
+  </div>
+</div>
+
+<section>
+  <div class="section-inner fade-in">
+    <div class="service-list">
+
+      <div class="service-item">
+        <div class="service-number">01</div>
+        <div class="service-content">
+          <h3>マーケティングコンサルティング</h3>
+          <p>
+            EC・オンライン通販を中心に、コスメティクス・サプリメントなど
+            健康関連商材のマーケティングを支援いたします。
+            市場分析から戦略立案、プロモーションのディレクションまで、
+            一貫したサービスを提供いたします。
+          </p>
+          <div class="service-tags">
+            <span class="service-tag">EC・オンライン通販</span>
+            <span class="service-tag">プランニング</span>
+            <span class="service-tag">ディレクション</span>
+            <span class="service-tag">ヘルスケア商材</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-item">
+        <div class="service-number">02</div>
+        <div class="service-content">
+          <h3>ファイナンシャルコンサルティング</h3>
+          <p>
+            企業の成長ステージに応じた資本戦略・経営戦略を、
+            ファイナンスの専門知見をもって包括的に支援いたします。
+          </p>
+          <div class="service-sub">
+            <div class="service-sub-item">
+              <div class="dot"></div>
+              <div>
+                <div class="sub-title">M&amp;Aアドバイザリー</div>
+                <div class="sub-desc">M&amp;Aに関する仲介・斡旋・コンサルティング。クロスボーダー案件にも対応。</div>
+              </div>
+            </div>
+            <div class="service-sub-item">
+              <div class="dot"></div>
+              <div>
+                <div class="sub-title">投資助言</div>
+                <div class="sub-desc">投資戦略の立案および実行支援。成長市場への投資機会の発掘と評価。</div>
+              </div>
+            </div>
+            <div class="service-sub-item">
+              <div class="dot"></div>
+              <div>
+                <div class="sub-title">経営コンサルティング</div>
+                <div class="sub-desc">経営課題の分析と解決策の提示。事業戦略の策定から実行まで伴走支援。</div>
+              </div>
+            </div>
+          </div>
+          <div class="service-tags">
+            <span class="service-tag">M&amp;A</span>
+            <span class="service-tag">投資助言</span>
+            <span class="service-tag">経営戦略</span>
+            <span class="service-tag">クロスボーダー</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- 対応地域 -->
+<div class="regions-section">
+  <div class="section-inner fade-in">
+    <p class="section-label">Regions</p>
+    <h2 class="section-title">対応地域</h2>
+    <div class="region-grid">
+      <div class="region-card">
+        <p class="region-name">日本</p>
+        <p class="region-name-en">Japan</p>
+        <p class="region-desc">東京を拠点に、国内企業の<br>マーケティングおよび<br>経営・M&amp;A支援を提供</p>
+      </div>
+      <div class="region-card">
+        <p class="region-name">東南アジア</p>
+        <p class="region-name-en">Southeast Asia</p>
+        <p class="region-desc">ベトナムを中心に、<br>東南アジア地域における<br>事業展開・投資を支援</p>
+      </div>
+      <div class="region-card">
+        <p class="region-name">アフリカ</p>
+        <p class="region-name-en">Africa</p>
+        <p class="region-desc">エチオピア等を中心に、<br>アフリカ地域における<br>コンサルティングを提供</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p class="footer-logo">PAGI<span style="color: var(--gold);">.</span></p>
+  <p class="footer-copy">&copy; 2024 PAGI Inc. All rights reserved.</p>
+</footer>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>

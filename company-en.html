@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Company｜PAGI Inc.</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index-en.html" class="logo">PAGI<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="index-en.html">Top</a></li>
+      <li><a href="message-en.html">Message</a></li>
+      <li><a href="services-en.html">Services</a></li>
+      <li><a href="track-en.html">Track Record</a></li>
+      <li><a href="company-en.html" class="active">Company</a></li>
+      <li><a href="company.html" class="lang-switch">JP</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="section-inner">
+    <p class="section-label">Company</p>
+    <h2 class="section-title" style="margin-bottom: 0;">Company Overview</h2>
+  </div>
+</div>
+
+<section>
+  <div class="section-inner fade-in">
+    <table class="company-table">
+      <tr>
+        <th>Company</th>
+        <td>PAGI Inc.（株式会社パギ）</td>
+      </tr>
+      <tr>
+        <th>Founded</th>
+        <td>October 2022</td>
+      </tr>
+      <tr>
+        <th>Location</th>
+        <td>3-3-13 Nishi-Shinjuku, Shinjuku-ku,<br>Tokyo, Japan</td>
+      </tr>
+      <tr>
+        <th>Services</th>
+        <td>
+          Marketing Consulting<br>
+          Financial Consulting<br>
+          (M&amp;A Advisory / Investment Advisory / Management Consulting)
+        </td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+<footer>
+  <p class="footer-logo">PAGI<span style="color: var(--gold);">.</span></p>
+  <p class="footer-copy">&copy; 2026 PAGI Inc. All rights reserved.</p>
+</footer>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>

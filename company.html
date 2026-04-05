@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>会社概要｜株式会社パギ</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index.html" class="logo">PAGI<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">トップ</a></li>
+      <li><a href="message.html">ご挨拶</a></li>
+      <li><a href="services.html">事業内容</a></li>
+      <li><a href="track.html">実績</a></li>
+      <li><a href="company.html" class="active">会社概要</a></li>
+      <li><a href="company-en.html" class="lang-switch">EN</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="section-inner">
+    <p class="section-label">Company</p>
+    <h2 class="section-title" style="margin-bottom: 0;">会社概要</h2>
+  </div>
+</div>
+
+<section>
+  <div class="section-inner fade-in">
+    <table class="company-table">
+      <tr>
+        <th>商号</th>
+        <td>株式会社パギ（PAGI Inc.）</td>
+      </tr>
+      <tr>
+        <th>設立</th>
+        <td>2022年10月</td>
+      </tr>
+      <tr>
+        <th>所在地</th>
+        <td>東京都新宿区西新宿三丁目3番13号</td>
+      </tr>
+      <tr>
+        <th>事業内容</th>
+        <td>
+          マーケティングコンサルティング<br>
+          ファイナンシャルコンサルティング<br>
+          （M&amp;Aアドバイザリー・投資助言・経営コンサルティング）
+        </td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+<footer>
+  <p class="footer-logo">PAGI<span style="color: var(--gold);">.</span></p>
+  <p class="footer-copy">&copy; 2024 PAGI Inc. All rights reserved.</p>
+</footer>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Services｜PAGI Inc.</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a href="index-en.html" class="logo">PAGI<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="index-en.html">Top</a></li>
+      <li><a href="message-en.html">Message</a></li>
+      <li><a href="services-en.html" class="active">Services</a></li>
+      <li><a href="track-en.html">Track Record</a></li>
+      <li><a href="company-en.html">Company</a></li>
+      <li><a href="services.html" class="lang-switch">JP</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="page-header">
+  <div class="section-inner">
+    <p class="section-label">Services</p>
+    <h2 class="section-title" style="margin-bottom: 0;">Our Services</h2>
+  </div>
+</div>
+
+<section>
+  <div class="section-inner fade-in">
+    <div class="service-list">
+
+      <div class="service-item">
+        <div class="service-number">01</div>
+        <div class="service-content">
+          <h3>Marketing Consulting</h3>
+          <p>
+            We provide comprehensive marketing support focused on e-commerce and online retail,
+            specializing in health-related products such as cosmetics and supplements.
+            Our services cover everything from market analysis and strategic planning
+            to promotional direction and execution.
+          </p>
+          <div class="service-tags">
+            <span class="service-tag">E-Commerce</span>
+            <span class="service-tag">Planning</span>
+            <span class="service-tag">Direction</span>
+            <span class="service-tag">Healthcare Products</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-item">
+        <div class="service-number">02</div>
+        <div class="service-content">
+          <h3>Financial Consulting</h3>
+          <p>
+            We offer holistic support for capital and business strategy,
+            drawing on deep financial expertise tailored to each client's growth stage.
+          </p>
+          <div class="service-sub">
+            <div class="service-sub-item">
+              <div class="dot"></div>
+              <div>
+                <div class="sub-title">M&amp;A Advisory</div>
+                <div class="sub-desc">M&amp;A brokerage, intermediation, and consulting. Cross-border transactions supported.</div>
+              </div>
+            </div>
+            <div class="service-sub-item">
+              <div class="dot"></div>
+              <div>
+                <div class="sub-title">Investment Advisory</div>
+                <div class="sub-desc">Investment strategy formulation and execution support. Identifying and evaluating opportunities in growth markets.</div>
+              </div>
+            </div>
+            <div class="service-sub-item">
+              <div class="dot"></div>
+              <div>
+                <div class="sub-title">Management Consulting</div>
+                <div class="sub-desc">Business challenge analysis and solution design. Hands-on support from strategy formulation through execution.</div>
+              </div>
+            </div>
+          </div>
+          <div class="service-tags">
+            <span class="service-tag">M&amp;A</span>
+            <span class="service-tag">Investment Advisory</span>
+            <span class="service-tag">Business Strategy</span>
+            <span class="service-tag">Cross-Border</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Regions -->
+<div class="regions-section">
+  <div class="section-inner fade-in">
+    <p class="section-label">Regions</p>
+    <h2 class="section-title">Coverage</h2>
+    <div class="region-grid">
+      <div class="region-card">
+        <p class="region-name">Japan</p>
+        <p class="region-name-en">日本</p>
+        <p class="region-desc">Headquartered in Tokyo,<br>providing marketing and<br>M&amp;A advisory services</p>
+      </div>
+      <div class="region-card">
+        <p class="region-name">Southeast Asia</p>
+        <p class="region-name-en">東南アジア</p>
+        <p class="region-desc">Centered on Vietnam,<br>supporting business expansion<br>and investment in the region</p>
+      </div>
+      <div class="region-card">
+        <p class="region-name">Africa</p>
+        <p class="region-name-en">アフリカ</p>
+        <p class="region-desc">Focused on Ethiopia,<br>delivering consulting services<br>across the continent</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p class="footer-logo">PAGI<span style="color: var(--gold);">.</span></p>
+  <p class="footer-copy">&copy; 2026 PAGI Inc. All rights reserved.</p>
+</footer>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
